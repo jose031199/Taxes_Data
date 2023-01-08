@@ -1,0 +1,57 @@
+﻿@{
+    Layout = null;
+}
+
+@model Users;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Login</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body style="background-color: #73777B; ">
+    <!--Login Form-->
+
+    <div class="container">
+        <div class="d-flex justify-content-center mt-5 h-auto">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Login</h3>
+                    <div class="d-flex justify-content-center" h-100>
+                        <span><i class="bi bi-person-circle"></i></span>
+                    </div>
+                </div>
+
+                <div class="card-body">
+                    <form asp-action="Admin" asp-controller="Login">
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+                            </div>
+                            <input type="text" class="form-control" id="txt_user" placeholder="Username" asp-for="Username" />
+                        </div>
+
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="bi bi-credit-card-2-front-fill"></i></span>
+                            </div>
+                            <input type="password" class="form-control" id="txt_user" placeholder="Password" asp-for="Password" />
+                        </div>
+
+                        <div class="input-group form-group">
+                            <button class="btn btn-group btn-outline-info input-group-text" asp-action="Admin" asp-controller="Login">Login</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
