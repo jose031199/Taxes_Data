@@ -77,7 +77,6 @@
 </div>
 
 
-
 @section Scripts{
 
 
@@ -91,6 +90,7 @@
                     "datatype": "json"
                 },
 
+
                 "columns": [
                     { "data": "nombre" },
                     { "data": "apellidos" },
@@ -102,11 +102,13 @@
                             return "<button class='btn btn-primary btn-sm' type='button' onclick='Edit(" + data + ")' data-toggle='modal' data-target='#ModalTaxes'><i class='bi bi-pencil-square'></i></button>" +
                                 "<button class='btn btn-danger btn-sm mt-2' type='button' onclick='Delete(" + data + ")'><i class='bi bi-trash-fill'></i></button>"
                         },
-                        "orderable": false,
                         "searchable": true,
                         "width": "15px"
                     }
                 ],
+
+                "order": [[4, 'asc']],
+
                 dom: 'Bfrtip',
                 buttons: [
 
@@ -141,7 +143,9 @@
                                 //location.href = @Url.Action("RemoveAll", "Admin");
                             }
                         }
-                    }
+                    },
+                    
+
                 ]
 
             });

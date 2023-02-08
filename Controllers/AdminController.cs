@@ -36,7 +36,11 @@ namespace Taxes_Data.Controllers
 
         public JsonResult Listar()
         {
-            var result = DBContext.TaxesRegister.ToList().OrderBy(t => t.FechaRegistro);
+            DateTime today = DateTime.Today;
+            DateTime today_7 = DateTime.Today.AddDays(7);
+            //var result = DBContext.TaxesRegister.ToList().Where(t=>t.FechaRegistro.Equals(today) && t.FechaRegistro.Equals(today_7)).OrderBy(t => t.FechaRegistro);
+            var result = DBContext.TaxesRegister.Where(t=>t.FechaRegistro.Value.Date>=today).OrderBy(t=>t.FechaRegistro.Value.Date).ToList();
+
             return Json(new { data = result });
         }
 

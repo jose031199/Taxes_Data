@@ -8,7 +8,8 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAaeJvYKAGXkWiXaTjbOtu8AAAAAACAAAAAAAQZgAAAAEAACAAAAD6+FvuSqvsH62BbY9lEzVUwqSM/V2A10qwn+OwvhfZBAAAAAAOgAAAAAIAACAAAABaSv7sDkHaksPhYK6hF8yd43SF44Z1scZ9IXajo3uqHyAAAADZU29al9QxYkPY7ZEs/w8kOuLntadfVqyqf+SgGbLkPkAAAAAL4AcdtZV9MO7Ov3bbFeD4h4ba/QF6Yp/TEH48i+qOCuYk9On77nXr7k9yEWS0TaSUm6E/bYAXXIvrrYKvZyMK</EncryptedPassword>
     <_PublishTargetUrl>ftp://155.254.244.40/www.taxesdata.somee.com</_PublishTargetUrl>
-    <History>True|2023-01-06T05:03:27.9881075Z;True|2023-01-05T20:54:03.8127980-08:00;True|2023-01-02T20:10:24.8261257-08:00;False|2023-01-02T20:07:05.9873533-08:00;False|2023-01-02T20:05:35.7150946-08:00;True|2023-01-01T20:51:19.3553387-08:00;True|2023-01-01T20:45:43.6918549-08:00;</History>
+    <History>True|2023-02-06T15:37:06.2973652Z;True|2023-01-05T21:03:27.9881075-08:00;True|2023-01-05T20:54:03.8127980-08:00;True|2023-01-02T20:10:24.8261257-08:00;False|2023-01-02T20:07:05.9873533-08:00;False|2023-01-02T20:05:35.7150946-08:00;True|2023-01-01T20:51:19.3553387-08:00;True|2023-01-01T20:45:43.6918549-08:00;</History>
+    <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <DestinationConnectionStrings Include="CadenaSQL">
@@ -20,10 +21,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/2023 17:49:54</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>01/05/2023 20:47:57</publishTime>
+      <publishTime>02/05/2023 17:16:52</publishTime>
     </File>
     <File Include="appsettings.production.json">
-      <publishTime>01/05/2023 21:00:53</publishTime>
+      <publishTime>02/06/2023 07:34:50</publishTime>
     </File>
     <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
       <publishTime>04/14/2020 22:39:12</publishTime>
@@ -143,28 +144,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/15/2018 13:29:44</publishTime>
     </File>
     <File Include="Taxes_Data.deps.json">
-      <publishTime>01/05/2023 21:00:52</publishTime>
+      <publishTime>02/06/2023 07:34:50</publishTime>
     </File>
     <File Include="Taxes_Data.dll">
-      <publishTime>01/05/2023 21:00:04</publishTime>
+      <publishTime>02/06/2023 07:31:45</publishTime>
     </File>
     <File Include="Taxes_Data.exe">
-      <publishTime>01/05/2023 21:00:04</publishTime>
+      <publishTime>02/06/2023 07:31:45</publishTime>
     </File>
     <File Include="Taxes_Data.pdb">
-      <publishTime>01/05/2023 21:00:04</publishTime>
+      <publishTime>02/06/2023 07:31:45</publishTime>
     </File>
     <File Include="Taxes_Data.runtimeconfig.json">
-      <publishTime>01/01/2023 20:43:14</publishTime>
+      <publishTime>02/06/2023 07:31:47</publishTime>
     </File>
     <File Include="Taxes_Data.Views.dll">
-      <publishTime>01/05/2023 21:00:05</publishTime>
+      <publishTime>02/06/2023 07:31:46</publishTime>
     </File>
     <File Include="Taxes_Data.Views.pdb">
-      <publishTime>01/05/2023 21:00:05</publishTime>
+      <publishTime>02/06/2023 07:31:46</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>01/05/2023 21:00:53</publishTime>
+      <publishTime>02/06/2023 07:34:50</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
       <publishTime>01/01/2023 17:49:54</publishTime>
